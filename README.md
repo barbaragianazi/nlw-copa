@@ -26,29 +26,45 @@ O Next Level Week é um evento totalmente online, gratuito e mão na massa promo
 <hr>
 <h3 align="center">🖼️ Imagens do projeto</h3>
 <hr>
-<h4 align="center">Vídeo ilustrativo das alterações de temas :arrow_down:</h4>
+<p align="center">
+Vídeo ilustrativo das alterações de temas :arrow_down:
+</p>
 <hr>
-<center><video width="320" height="240" controls >
-  <source src="./assets/prints/video.mp4" type="video/mp4">
-</video>
+<div align="center">
+
+https://user-images.githubusercontent.com/53773544/200220219-7cdc9cf8-0668-430b-ac85-1d9594ffbc75.mp4
+
+</div>
 
 <hr>
-<h4>:yellow_circle: Print da versão mobile no tema amarelo :arrow_down:</h4>
+<p align="center">
+:yellow_circle: Print da versão mobile no tema amarelo :arrow_down:
+</p>
 <hr>
-<center><img width=320px; src="./assets/prints/mobile.png" alt="print mobile">
+<p align="center"><img width=320px; src="./assets/prints/mobile.png" alt="print mobile"></p>
 
 <hr>
-<h4>:green_circle: Print da versão desktop no tema verde :arrow_down:</h4>
+<p align="center">
+:green_circle: Print da versão desktop no tema verde :arrow_down:
+</p>
 <hr>
 <center><img src="./assets/prints/desktop.png" alt="print desktop">
 
 <hr>
-<h4>:large_blue_circle: Print da versão widescreen no tema azul :arrow_down:</h4>
+<p align="center">
+:large_blue_circle: Print da versão widescreen no tema azul :arrow_down:
+</p>
 <hr>
 <center><img src="./assets/prints/widescreen.png" alt="print widescreen">
 
 <hr>
 
-<center><h1 style="color: #996dff; font-weight:bold">#neverstoplearning</h1>
+<div align="center">
 
+<h1 style="color: #996dff; font-weight:bold">#neverstoplearning</h1>
+
+</div>
+
+<p align="center">
 <img src="./assets/logo-fundo-escuro.svg" style="width: 250px; "/>
+</p>
