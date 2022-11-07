@@ -1,0 +1,237 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --card-cor-primaria: #f7dd43;
+    --card-cor-secundaria: #338AF3;
+    --card-borda-data: #746615;
+    --background-image: url('assets/bg-desktop-amarelo.svg');
+    --logo-desktop: url('assets/logo-fundo-escuro.svg');
+    --logo-mobile: url('assets/logo-fundo-escuro-mobile.svg')
+}
+
+@font-face {
+    font-family: 'TTTunnels-Bold';
+    src: url('./assets/fonts/TTTunnels-Bold.otf') format("opentype");
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background: #121214 var(--background-image) no-repeat top center/cover;
+}
+
+body.amarelo {
+    --card-cor-primaria: #f7dd43;
+    --card-borda-data: #746615;
+    --background-image: url('assets/bg-desktop-amarelo.svg');
+    --card-cor-fundo: #1D1C19;
+}
+
+body.azul {
+    --card-cor-primaria: #338AF3;
+    --card-borda-data: #338AF3;
+    --background-image: url('assets/bg-desktop-azul.svg');
+    --card-cor-fundo: #202024;
+}
+
+body.verde {
+    --card-cor-primaria: #047C3F;
+    --card-borda-data: #047C3F;
+    --background-image: url('assets/bg-desktop-verde.svg');
+    --card-cor-fundo: #1A1F1B;
+}
+
+#app {
+    width: fit-content;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.alterarTema {
+    margin-bottom: 50px;
+    text-align: center;
+    gap: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.alterarTema h2 {
+    font-family: 'TTTunnels-Bold', 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #f7dd43;
+}
+
+.alterarTema img {
+    cursor: pointer;
+}
+
+#cards {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 20px;
+}
+
+.card {
+    text-align: center;
+    padding: 32px 23px;
+    background-color: var(--card-cor-fundo);
+    border-radius: 6px;
+    border-bottom: 2px solid var(--card-cor-primaria);
+    box-shadow: 0px 4px 4px #000000;
+}
+
+.dataJogo {
+    border: 1px solid var(--card-borda-data);
+    border-radius: 6px;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: 46px;
+    padding: 8px 16px;
+    gap: 16px;
+    margin-inline: auto;
+    margin-bottom: 53px;
+    box-shadow: 0px 4px 4px #0000006e;
+}
+
+.dataJogo .data {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #f7dd43;
+}
+
+.dataJogo .dia {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 125%;
+    color: #E1E1E6;
+    text-transform: uppercase;
+}
+
+.jogos {
+    display: flex;
+    justify-content: center;
+}
+
+.jogos strong {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    color: #E1E1E6;
+    margin: 0px 38px;
+}
+
+.jogos ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.jogos ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 270px;
+}
+
+.jogos ul li+li {
+    padding-top: 24px;
+    border-top: 1px solid #323238;
+}
+
+.card ul li strong:hover,
+.card ul li img:hover,
+.card h2:hover {
+    transform: scale(1.1);
+}
+
+.card ul li strong:hover,
+.card ul li img:hover,
+.card h2:hover {
+    transition: transform 0.2s;
+}
+
+.card,
+header {
+    opacity: 0;
+    animation: appear 1s forwards;
+}
+
+.logoBarbara {
+    /* width: 150px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+@keyframes appear {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    #cards {
+        max-width: 670px;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    #cards {
+        max-width: 500px;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    body {
+        margin: 150px auto;
+    }
+    #cards {
+        max-width: 2500px;
+        /* flex-wrap: wrap; */
+        display: inline-flex;
+        /* flex-direction: row; */
+        justify-content: center;
+    }
+}
