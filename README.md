@@ -22,6 +22,10 @@ O Next Level Week é um evento totalmente online, gratuito e mão na massa promo
     <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"/>
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
 </div>
+<hr>
+<h3 align="center">🥇 Placares atualizados!</h3>
+<hr>
+<h4 align="center">8️⃣ Projeto atualizado em 05 de dezembro, após o Brasil se classificar para as oitavas de final!</h4>
 
 <hr>
 <h3 align="center">🖼️ Imagens do projeto</h3>
