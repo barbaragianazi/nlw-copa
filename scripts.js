@@ -45,10 +45,16 @@ function jogoConcluido(time1, golsTime1, time2, golsTime2) {
       </li>`;
 }
 
+document.querySelector("#cardsQuartasFinal").innerHTML = criarCartao(
+  "09/12",
+  "sexta",
+  criarJogo("brasil", "12", "croacia")
+);
+
 document.querySelector("#cardsOitavasFinal").innerHTML = criarCartao(
   "05/12",
   "segunda",
-  criarJogo("brasil", "16", "coreiadosul")
+  jogoConcluido("brasil", "4", "coreiadosul", "1")
 );
 
 document.querySelector("#cardsFaseGrupos").innerHTML =

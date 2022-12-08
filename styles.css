@@ -81,7 +81,7 @@ h2 {
   font-family: "TTTunnels-Bold", "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
+  /* font-size: 36px; */
   color: #f7dd43;
 }
 
@@ -96,7 +96,7 @@ h2 {
   margin-bottom: 20px;
 }
 
-.oitavasFinal {
+.oitavasFinal .quartasFinal {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
@@ -221,18 +221,19 @@ header {
 
 @media screen and (min-width: 700px) {
   #cardsFaseGrupos,
-  #cardsOitavasFinal {
+  #cardsOitavasFinal, #cardsQuartasFinal {
     max-width: 670px;
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 30px;
   }
 }
 
 @media screen and (max-width: 500px) {
   #cardsFaseGrupos,
-  #cardsOitavasFinal {
+  #cardsOitavasFinal, #cardsQuartasFinal {
     max-width: 500px;
     flex-wrap: wrap;
     display: flex;
@@ -246,7 +247,7 @@ header {
     margin: 150px auto;
   }
   #cardsFaseGrupos,
-  #cardsOitavasFinal {
+  #cardsOitavasFinal, #cardsQuartasFinal {
     max-width: 2500px;
     /* flex-wrap: wrap; */
     display: inline-flex;
