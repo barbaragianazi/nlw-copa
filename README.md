@@ -25,6 +25,9 @@ O Next Level Week é um evento totalmente online, gratuito e mão na massa promo
 <hr>
 <h3 align="center">🥇 Placares atualizados!</h3>
 <hr>
+<h4 align="center">8️4️⃣ Projeto atualizado em 08 de dezembro, após o Brasil se classificar para as quartas de final!</h4>
+
+<hr>
 <h4 align="center">8️⃣ Projeto atualizado em 05 de dezembro, após o Brasil se classificar para as oitavas de final!</h4>
 
 <hr>
