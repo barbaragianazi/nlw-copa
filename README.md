@@ -33,6 +33,8 @@ O Next Level Week é um evento totalmente online, gratuito e mão na massa promo
 <hr>
 <h3 align="center">🖼️ Imagens do projeto</h3>
 <hr>
+<p align="center"><img width=320px; src="./assets\prints\quartasFinal.png" alt="quartasFinal"></p>
+<hr>
 <p align="center">
 Vídeo ilustrativo das alterações de temas :arrow_down:
 </p>
